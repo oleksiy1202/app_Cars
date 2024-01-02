@@ -1,0 +1,12 @@
+<div class="card mt-3 card-animation" style="min-height: 350px; font-family: cursive;">
+  <a [routerLink]="['/details', listCar.id]" class="text-no-underline">
+    <img [src]="listCar.image" height="180px" class="card-img-top" [alt]="listCar.image">
+    <div class="card-body">
+      <h5 class="card-title">ID: {{ listCar.id }} {{ listCar.name }}</h5>
+      <p class="card-text">
+        Model: {{ listCar.model }}<br>
+        Price: ${{ listCar.price }}
+      </p>
+    </div>
+  </a>
+</div>

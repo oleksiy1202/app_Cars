@@ -1,0 +1,32 @@
+<form>
+    <h1>Edit Car</h1>
+    <div class="row">
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="name" class="form-label">Car name: </label>
+                <input type="text" class="form-control" id="name" name="name" [(ngModel)]="car.name">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="model" class="form-label">Car model: </label>
+                <input type="text" class="form-control" id="model" name="model" [(ngModel)]="car.model">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="price" class="form-label">Car price: </label>
+                <input type="text" class="form-control" id="price" name="price" [(ngModel)]="car.price">
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="mb-3">
+                <label for="image" class="form-label">Car image: </label>
+                <input type="text" class="form-control" id="image" name="image" [(ngModel)]="car.image">
+            </div>
+        </div>
+    </div>
+    <button type="button" (click)="editCar()" class="btn btn-primary">Edit Car</button>
+    <button type="button" (click)="goBack()" class="btn btn-primary ms-2">Go back</button>
+</form>
+

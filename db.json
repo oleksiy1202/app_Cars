@@ -1,0 +1,109 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "ЗАЗ",
+      "model": "968M",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/ZAZ-968M.JPG",
+      "price": "500"
+    },
+    {
+      "id": 2,
+      "name": "BMW",
+      "model": "X5",
+      "price": 10000,
+      "image": "https://www.bmw.ua/content/dam/bmw/common/all-models/m-series/x5m/2023/technical-data/bmw-m-series-x5-m-sp-technical-desktop.jpg/jcr:content/renditions/cq5dam.resized.img.980.medium.time1673291714062.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Mercedes-Benz",
+      "model": "E-Class",
+      "price": 7500,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Mercedes-Benz_W223_IMG_6663.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Toyota",
+      "model": "Camry",
+      "price": 6000,
+      "image": "https://toyota-ua.com/uploads/media/dc_car_gallery/0002/48/thumb_147812_dc_car_gallery_new_slider.png.webp"
+    },
+    {
+      "id": 5,
+      "name": "Ford",
+      "model": "Mustang",
+      "price": 8500,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-ford-mustang-shelby-gt500-02-1636734552.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Chevrolet",
+      "model": "Camaro",
+      "price": 7800,
+      "image": "https://cdn.motor1.com/images/mgl/pvwEo/s1/2019-chevrolet-camaro-zl1-1le.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Honda",
+      "model": "Civic",
+      "price": 5500,
+      "image": "https://imgd.aeplcdn.com/0x0/n/cw/ec/27074/civic-exterior-right-front-three-quarter-148155.jpeg?q=80"
+    },
+    {
+      "id": 8,
+      "name": "Nissan",
+      "model": "Altima",
+      "price": 6500,
+      "image": "https://img.automoto.ua/overview/nissan-altima-2020-85b-huge-1583.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Hyundai",
+      "model": "Elantra",
+      "price": 5800,
+      "image": "https://img.automoto.ua/overview/hyundai-elantra-2021-820-huge-1867.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Kia",
+      "model": "Sportage",
+      "price": 7200,
+      "image": "https://i.infocar.ua/i/12/6764/1400x936.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Volkswagen",
+      "model": "Golf",
+      "price": 6200,
+      "image": "https://cdn.motor1.com/images/mgl/3KVg1/s1/2022-volkswagen-golf-r-exterior.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Lexus",
+      "model": "RX",
+      "price": 9000,
+      "image": "https://www.topgear.com/sites/default/files/2023/05/1%20Lexus%20RX.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Mazda",
+      "model": "CX-5",
+      "price": 6900,
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2022-mazda-cx-5-2p5-turbo-signature-123-1657559083.jpg?crop=0.779xw:0.584xh;0.104xw,0.311xh&resize=1200:*"
+    },
+    {
+      "id": 15,
+      "name": "Jeep",
+      "model": "Grand Cherokee",
+      "price": 8500,
+      "image": "https://media.ed.edmunds-media.com/jeep/grand-cherokee-l/2022/oem/2022_jeep_grand-cherokee-l_4dr-suv_limited_fq_oem_1_1600.jpg"
+    },
+    {
+      "name": "mitsubishi ",
+      "model": "lancer 9",
+      "price": "3500",
+      "image": "https://prostavki.kiev.ua/content/uploads/images/zavantazhennja-1.jpg",
+      "id": 16
+    }
+  ]
+}

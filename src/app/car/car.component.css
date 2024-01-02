@@ -1,0 +1,17 @@
+.card-animation:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #f0f0f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.card-animation:active {
+    transform: translateY(0);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
+}
+
+.text-no-underline {
+    text-decoration: none;
+}

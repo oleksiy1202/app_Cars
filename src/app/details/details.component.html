@@ -1,0 +1,34 @@
+<div class="container mt-4">
+    <h1 class="text-center">Car Details:</h1>
+    <hr>
+
+    <div class="info_car">
+        <img src="{{cars.image}}" class="img-fluid" alt="#">
+
+        <form class="mt-2">
+            <div class="mb-3">
+                <label for="id" class="form-label">IG:</label>
+                <input type="number" class="form-control" id="id" readonly value="{{cars.id}}">
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" readonly value="{{cars.name}}">
+            </div>
+            <div class="mb-3">
+                <label for="model" class="form-label">model:</label>
+                <input type="text" class="form-control" id="model" readonly value="{{cars.model}}">
+            </div>
+            <div class="mb-3">
+                <label for="price" class="form-label">price:</label>
+                <input type="number" class="form-control" id="price" readonly value="{{cars.price}}">
+            </div>
+            <div class="mb-3">
+                <button type="button" (click)="beck()" class="btn btn-primary">Go beck</button>
+                <button type="button" (click)="info_car()" class="btn btn-secondary ms-2">Edit</button>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
